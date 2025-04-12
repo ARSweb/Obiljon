@@ -1,0 +1,153 @@
+.add-student {
+    padding: 30px;
+    background: #f3f4ff;
+    font-family: Poppins;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h2 {
+    font-size: 36px;
+    color: #303972;
+    font-weight: 700;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .avatar {
+    width: 60px;
+    height: 60px;
+    background: #c1bbeb;
+    border-radius: 50%;
+  }
+  
+  .profile .info strong {
+    font-size: 14px;
+    color: #303972;
+  }
+  
+  .profile .info p {
+    margin: 0;
+    font-size: 14px;
+    color: #a098ae;
+  }
+  
+  .student-form {
+    background: white;
+    padding:0 0 40px 0;
+    border-radius: 20px;
+  }
+
+  .for-padding{
+    padding: 40px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    margin: 40px 0 24px;
+  }
+  
+  .photo-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .photo-upload {
+    border: 1px dashed #c1bbeb;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    color: #a098ae;
+    font-size: 14px;
+    background: #fff;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    color: #303972;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    border: 1px solid #c1bbeb;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    font-family: Poppins;
+  }
+  
+  .full {
+    grid-column: span 2;
+  }
+  
+  .payment-options {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  
+  .payment-options label {
+    font-size: 16px;
+    color: #303972;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 30px;
+
+  }
+  
+  .form-actions button {
+    height: 60px;
+    padding: 0 32px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: Poppins;
+    cursor: pointer;
+  }
+  
+  button.draft {
+    background: white;
+    border: 2px solid #4d44b5;
+    color: #4d44b5;
+  }
+  
+  button.submit {
+    background: #4d44b5;
+    color: white;
+    border: none;
+  }
+  
